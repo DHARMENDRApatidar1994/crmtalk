@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.maindiv{
+   background-color: rgb(3,9,30);
+   overflow-x: hidden;
+
+}
+.demo{
+    background: linear-gradient(90.73deg, #0B76C2 12.5%, #13D6D6 88.88%);
+
+}
+.started{
+    border: 1.5px solid  #0B76C2 ;
+    background: linear-gradient(90.73deg, #0B76C2 12.5%, #13D6D6 88.88%);
+    -webkit-background-clip: text; /* For Webkit browsers like Chrome and Safari */
+    color: transparent;
+
+}
+.cutting{
+    background: linear-gradient(90.73deg, #0B76C2 12.5%, #13D6D6 88.88%);
+    -webkit-background-clip: text; /* For Webkit browsers like Chrome and Safari */
+    color: transparent;
+}
+.leftdiv{
+    position: relative;
+    height: 35vmax;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.curveline1{
+    width: 60vmax;
+    height: 35vmax;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: -15px -40px 50px rgb(9,75,101);
+    transform: translate(-1vmax ,17vmax);
+    z-index: 1;
+   
+}
+.curveline2{
+    width: 100%;
+    height: 35vmax;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0px -10px 20px rgb(9,75,101);
+    transform: translate(18vmax ,-30vmax);
+    z-index: 1;
+    rotate: -12deg;
+   
+}
+.boostbusiness{
+    z-index: 2;
+}
+.companylogo{
+    background: linear-gradient(90.73deg, rgba(11, 118, 194, 0.9) 12.5%, rgba(15, 168, 204, 0) 33.48%, rgba(19, 214, 214, 0) 65.31%, rgba(19, 214, 214, 0.9) 88.88%);
+  z-index:2;
+}
+.companylogo img{
+    z-index: 1;
+}
+.topfeatures{
+    position: relative;
+}
+.frame40{
+    z-index: 2;
+}
+.blurdiv1{
+    width: 40vmax;
+    height: 40vmax;
+    background-color: rgb(6,47,72);
+    border-radius: 50%;
+    filter: blur(25px);
+    position: absolute;
+    right: -18vmax;
+    bottom: -15vmax;
+    z-index: 1;
+}
+.rightframe1{
+    z-index: 2;
+}
+.Accelerate{
+    position: relative;
+  
+}
+.blurdiv2{
+    width: 45vmax;
+    height: 45vmax;
+    background-color: rgb(6,47,72);
+    border-radius: 50%;
+    filter: blur(25px);
+    position: absolute;
+    left: -8vmax;
+  
+    z-index: 1;
+}
+
+.prospect{
+    position: relative;
+}
+  .blurdiv3{
+    width: 65vmax;
+    height: 65vmax;
+    background-color: rgb(6,47,72);
+    border-radius: 50%;
+    filter: blur(25px);
+    position: absolute;
+    right: -8vmax;
+    top: -4vmax;
+    z-index: 1;
+  
+   
+}
+
+.userdiv{
+    position: relative;
+}
+.blurdiv4{
+    width: 70vmax;
+    height: 70vmax;
+    background-color: rgb(6,47,72);
+    border-radius: 50%;
+    filter: blur(25px);
+    position: absolute;
+    left: -19vmax;
+    top: 7vmax;
+  
+    z-index: 1;
+}
+.month{
+    background: linear-gradient(180deg, #0B7CC3 0%, #13D6D6 100%);
+
+}
