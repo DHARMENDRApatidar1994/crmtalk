@@ -60,11 +60,16 @@ html,body{
     z-index: 2;
 }
 .companylogo{
+    
     background: linear-gradient(90.73deg, rgba(11, 118, 194, 0.9) 12.5%, rgba(15, 168, 204, 0) 33.48%, rgba(19, 214, 214, 0) 65.31%, rgba(19, 214, 214, 0.9) 88.88%);
   z-index:2;
 }
 .companylogo img{
     z-index: 1;
+}
+.features{
+    word-spacing: 1vmax;
+    letter-spacing: 1.2px;
 }
 .topfeatures{
     position: relative;
@@ -84,6 +89,7 @@ html,body{
     z-index: 1;
 }
 .rightframe1{
+    position: relative;
     z-index: 2;
 }
 .Accelerate{
