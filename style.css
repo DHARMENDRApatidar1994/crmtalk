@@ -67,6 +67,7 @@ html,body{
 }
 .companylogo img{
     z-index: 1;
+    height: 2.2vmax;
 }
 .features{
     word-spacing: 1vmax;
@@ -144,4 +145,47 @@ html,body{
 .month{
     background: linear-gradient(180deg, #0B7CC3 0%, #13D6D6 100%);
 
+}
+
+
+@media (max-width:767px) {
+    .leftdiv{
+        position: relative;
+        height: auto;
+        /* background-color: red; */
+        overflow: hidden;
+        padding-top: 10vmax;
+    }
+    .boostbusiness img{
+        width: 100%;
+    }
+    .curveline1{
+       display: none;
+    }
+    .curveline2{
+      display: none; 
+    }
+    .companylogo{
+    
+        background:none;
+     
+    }
+    .companylogo img{
+      width: 42%;
+      height: 5vmax;
+      margin-top: 1.5vmax;
+    }
+    .blurdiv1{
+       display: none;
+    }
+    .blurdiv2{
+       display: none;
+    }
+    .blurdiv3{
+       display: none;
+       
+    }
+    .blurdiv4{
+       display: none;
+    }
 }
