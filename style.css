@@ -31,9 +31,10 @@ html,body{
 }
 .leftdiv{
     position: relative;
-    height: 35vmax;
+    height: 45vmax;
     /* background-color: red; */
     overflow: hidden;
+    padding-top: 10vmax;
 }
 .curveline1{
     width: 60vmax;
